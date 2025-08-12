@@ -1,0 +1,44 @@
+.shop-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 5px 6px 0px grey;
+  padding: 20px;
+  text-align: center;
+  aspect-ratio: 1;
+  background-color: rgb(245, 245, 245);
+  background-repeat: no-repeat;
+  background-position: center -20px;
+  background-size: cover;
+}
+
+.shop-card__title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.shop-card__color {
+  color: rgb(128, 128, 128);
+}
+
+.shop-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: red;
+}
+
+.shop-card__btn {
+  padding: 8px 15px;
+  border: 2px solid red;
+  border-radius: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.shop-card__btn:hover {
+  background-color: red;
+  color: #fff;
+  border-color: red;
+}
